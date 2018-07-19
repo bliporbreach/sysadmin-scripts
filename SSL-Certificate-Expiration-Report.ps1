@@ -13,9 +13,9 @@ param (
 	[string]$EmailServer = "mailhost.moorecap.com",
 	[Parameter(Mandatory)]
 	[string]$EmailAddressTo,
-    [Parameter()]
-  [string]$EmailAddressFrom,
-    [Parameter()]
+    	[Parameter()]
+  	[string]$EmailAddressFrom,
+    	[Parameter()]
 	[string]$minimumCertAgeDays = 60
 )
 
